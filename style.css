@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+    background-color: #7395AE;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #B1A296;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid black;
+}
+
+header h1{
+    font-family:'Roboto Mono',sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin:0 25px;
+}
+
+header ul{
+    display:inline-block;
+    padding:0 10px; 
+}
+
+
+nav ul a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+nav ul a:focus,
+nav ul a:hover{
+    background-color: grey;
+    border-radius: 7px;
+}
+
+.title{
+    margin:80px 85px;
+    font-size:50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgcontainer img{
+    width: 850px;
+    border-radius: 15px;
+    border: 4px solid black;
+}
+
+.TextAboutContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutContainer p{
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    width: 700px;
+}
+
+.PhotoGalleryContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:20px 10px;
+    max-width: 1400px;
+    margin:0 auto;
+    gap:15px;
+}
+
+.PhotoGalleryContainer img{
+    border: 4px solid black;
+    border-radius: 15px;
+    width:350px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.CareerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.Divider{
+    width: 400px;
+}
+
+.Divider p{
+    width:100px;
+    display: inline-block;
+    justify-content: end;
+    align-items: end;
+}
+
+.Divider a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.CareerContainer li{
+    width:500px;
+    margin:5px 0 5px 0px;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
